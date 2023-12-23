@@ -26,6 +26,22 @@ const WetherApp = () => {
       </div>
       <div className="weather-temp">24°c</div>
       <div className="weather-location">Addis Ababa</div>
+      <div className="data-container">
+        <div className="element">
+          <img src={humidity_icon} alt="" className="icon" />
+          <div className="data">
+            <div className="humidity-percent">64%</div>
+            <div className="text">Humidity</div>
+          </div>
+        </div>
+        <div className="element">
+          <img src={wind_icon} alt="" className="icon" />
+          <div className="data">
+            <div className="humidity-percent">18 km/h</div>
+            <div className="text">Wind speed</div>
+          </div>
+        </div>
+      </div>
      
     </div>
   )
