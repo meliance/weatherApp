@@ -72,6 +72,9 @@
   font-weight: 300;
 }
 .text {
-  font-size: 250px;
-  font-weight: 300;
+  font-size: 20px;
+  font-weight: 200;
+}
+.icon {
+  margin: 10px;
 }
